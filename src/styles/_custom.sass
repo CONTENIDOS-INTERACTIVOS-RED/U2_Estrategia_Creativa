@@ -58,6 +58,15 @@
   &-2
     background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.png") !important
+    background-position: bottom
+  &-4
+    background-image: url("../assets/bg/bg4.png") !important
+    background-position: top
+  &-5
+    background-image: url("../assets/bg/bg5.png") !important
+    background-position: top
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -175,14 +184,19 @@ $custom-card-img-height: 322px
   font-weight: 900
 
 .lista-ol--cuadro__vineta
-  background-color: $color-secundario
-  color: #000
+  background-color: #AC59F1
+  color: #fff
   min-width: 32px
   min-width: 28px
   height: 28px
 
   span
     font-size: 0.85em
+.lista-ol--cuadro 
+  li
+    padding-top: 0.7rem
+    padding-bottom: 0.7rem
+    font-size: 0.95em
 
 .large
   .linea-tiempo-d__item__content__title
@@ -212,3 +226,34 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+
+// Tema 1
+h2 b
+  font-weight: 700 !important
+h2 span 
+  font-weight: 400 !important
+
+
+
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 88%
+    transform: translateY(-0%)
+    background-color: #F6EDFD
+    z-index: 0
+  .col-lg-11, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
