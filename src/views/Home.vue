@@ -21,13 +21,9 @@
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
-              h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              h1.home-title.mb-4 Proceso creativo y <em>briefing</em>
+              p.descripcion.mb-4 La creatividad en #[em marketing], conecta emocionalmente, diferencia marcas y genera resultados medibles. Complementada por un proceso creativo estructurado, se transforma en acciones concretas, alineadas con los objetivos. Un #[em briefing] bien elaborado, guía proyectos estratégicamente, asegurando eficiencia, alineación y calidad en las ideas. Técnicas como #[em brainstorming] y SCAMPER, potencian la generación de ideas innovadoras. La inteligencia artificial amplía este proceso, ofreciendo nuevas perspectivas, priorización de ideas y soluciones disruptivas. Al combinar creatividad, metodología y tecnología, se logra innovación y relevancia en campañas exitosas, adaptadas a las necesidades del mercado.
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
-
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
