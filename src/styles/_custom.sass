@@ -20,12 +20,17 @@
     background-color: #EEDDFC
   &-2
     background-color: #F9D7DF
-
-    
   &-3
-    background-color: #F0E9F6
+    background-color: #B6EAEC
   &-4
-    background-color: #EAF8FD
+    background-color: #F6EDFD
+  &-5
+    background-color: #E7EFF8
+  &-6
+    background-color: #FEE6DA
+  &-7
+    background-color: #E2FAFB
+
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -67,6 +72,15 @@
   &-5
     background-image: url("../assets/bg/bg5.png") !important
     background-position: top
+  &-6
+    background-image: url("../assets/bg/bg6.png") !important
+    background-position: top
+  &-7
+    background-image: url("../assets/bg/bg7.png") !important
+    background-position-y: -205px
+  &-8
+    background-image: url("../assets/bg/bg8.png") !important
+    background-position-y: 130px
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -108,15 +122,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 25%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 27%) !important
 
 
 .anexo__texto
@@ -171,11 +185,11 @@ $custom-card-img-height: 322px
   @media screen and (max-width: $bp-max-sm)
     width: 38px !important
   
-
-.img-infografica__item__dot:before, .img-infografica-b__item__dot:before
-  opacity: 1
-  border: 2px solid #FEFAF3
-  background-color: #F8BC17
+.img-infografica-b.color-secundario
+  .img-infografica__item__dot:before, .img-infografica-b__item__dot:before
+    opacity: 1
+    border: 2px solid #FEFAF3
+    background-color: #F8BC17
 
 .img-infografica__card, .img-infografica-b__card
   width: 350px !important
@@ -194,8 +208,8 @@ $custom-card-img-height: 322px
     font-size: 0.85em
 .lista-ol--cuadro 
   li
-    padding-top: 0.7rem
-    padding-bottom: 0.7rem
+    padding-top: 0.8rem
+    padding-bottom: 0.8rem
     font-size: 0.95em
 
 .large
@@ -257,3 +271,26 @@ h2 span
   
     &::after
       height: 100%
+
+
+.tarjeta-move
+  position: relative
+  &__title
+    position: relative
+    border-radius: 20px
+    padding: 2.5rem 1.5rem
+    display: inline-block
+    width: 35%
+    h3
+      color: white
+  &__content
+    padding: 1.5rem
+    border-radius: 20px
+    p
+      margin-left: 3.5rem
+    // @media (min-width: $bp-min-lg  )
+    margin-left: -4rem     
+    z-index:  
+
+.text-black
+  color: #000000 !important

@@ -15,70 +15,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Proceso creativo y <em>briefing</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'El <em>briefing</em> como punto de partida estratégico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Técnicas para la generación de ideas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +70,117 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Biasca, R. E. (2024). Resultados: la acción de las ideas a los hechos concretos (2 ed.). Ciudad Educativa.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/273090',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'González, E. (2019). En las entrañas de la publicidad: la dirección creativa ejecutiva y el oficio de anunciar. Editorial UOC.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/120286',
+    },
+    {
+      referencia:
+        'Uribe Beltrán, C. I. (2020). Marketing digital en agencias de publicidad: social media en Mipymes de servicios creativos de Bogotá. Fundación Universitaria Los Libertadores.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/136993',
+    },
+    {
+      referencia:
+        'González, E. (2019). En las entrañas de la publicidad: la dirección creativa ejecutiva y el oficio de anunciar. Editorial UOC.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/120286',
+    },
+    {
+      referencia:
+        'Montessori, M. (2020). Ideas generales sobre mi método: manual práctico. Editorial CEPE.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/153522',
+    },
+    {
+      referencia:
+        'Pieri, J. (2020). Makers: cómo transformar ideas en productos en estos tiempos. McGraw-Hill España.',
+      link: 'https://libro.net/es/lc/tecnologicadeloriente/titulos/189586',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: '<em>Brainstorming</em>',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Técnica de generación de ideas en grupo, donde se fomenta la libre expresión y la cantidad de ideas, sin juzgarlas inicialmente.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: '<em>Brief</em>',
+      significado: 'Sinónimo de <em>briefing</em>.',
+    },
+    {
+      termino: 'Concepto creativo',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Idea central que guía una campaña publicitaria y que comunica el mensaje de manera original y memorable.',
+    },
+    {
+      termino: '<em>Copywriting</em>',
+      significado: 'Redacción creativa de textos publicitarios.',
+    },
+    {
+      termino: 'Evaluación',
+      significado:
+        'Proceso de análisis y valoración de las ideas generadas para seleccionar las más adecuadas.',
+    },
+    {
+      termino: 'Ideación',
+      significado:
+        'Proceso de generación de ideas, tanto a nivel individual como en equipo.',
+    },
+    {
+      termino: 'Implementación',
+      significado:
+        'Fase en la que se lleva a cabo la campaña publicitaria, poniendo en práctica las ideas seleccionadas.',
+    },
+    {
+      termino: '<em>Insight</em>',
+      significado:
+        'Comprensión profunda de las necesidades, deseos y motivaciones del consumidor.',
+    },
+    {
+      termino: 'Inspiración',
+      significado:
+        'Estímulo que desencadena la creatividad y la generación de nuevas ideas.',
+    },
+    {
+      termino: 'Mapas mentales',
+      significado:
+        'Herramienta visual que permite representar ideas de forma jerárquica y establecer conexiones entre ellas.',
+    },
+    {
+      termino: 'Objetivo de campaña',
+      significado:
+        'Meta que se desea alcanzar con una campaña publicitaria, por ejemplo, aumentar las ventas, mejorar la imagen de marca o lanzar un nuevo producto.',
+    },
+    {
+      termino: 'Posicionamiento de marca',
+      significado:
+        'Lugar que ocupa una marca en la mente de los consumidores en relación con la competencia.',
+    },
+    {
+      termino: 'Público objetivo',
+      significado:
+        'Grupo de personas al que va dirigida una campaña publicitaria.',
+    },
+    {
+      termino: '<em>SCAMPER</em>',
+      significado:
+        'Técnica de generación de ideas, basada en siete preguntas que ayudan a modificar, combinar, adaptar, modificar, proponer nuevos usos, eliminar y reorganizar elementos existentes.',
+    },
+    {
+      termino: '<em>Target</em>',
+      significado: 'Sinónimo de público objetivo.',
+    },
+    {
+      termino: 'Tono de voz',
+      significado:
+        'Personalidad y estilo de comunicación que se utiliza en una campaña publicitaria.',
+    },
+    {
+      termino: 'Visualización',
+      significado:
+        'Proceso de crear imágenes mentales para representar ideas y conceptos.',
     },
   ],
 }
