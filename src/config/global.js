@@ -166,7 +166,7 @@ export default {
     {
       termino: '<em>SCAMPER</em>',
       significado:
-        'Técnica de generación de ideas, basada en siete preguntas que ayudan a modificar, combinar, adaptar, modificar, proponer nuevos usos, eliminar y reorganizar elementos existentes.',
+        'Técnica de generación de ideas, basada en siete preguntas que ayudan a modificar, combinar, adaptar, proponer nuevos usos, eliminar y reorganizar elementos existentes.',
     },
     {
       termino: '<em>Target</em>',

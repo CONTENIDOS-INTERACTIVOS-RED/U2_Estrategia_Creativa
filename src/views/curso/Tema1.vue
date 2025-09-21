@@ -50,7 +50,7 @@
 
 
     h2(data-aos="flip-up").mb-5 Importancia de un proceso creativo sistemático
-    p(data-aos="fade-left").mb-5 Un proceso creativo sistemático, es crucial para optimizar la generación e implementación de ideas.Un proceso creativo sistemático, es crucial para optimizar la generación e implementación de ideas.
+    p(data-aos="fade-left").mb-5 Un proceso creativo sistemático, es crucial para optimizar la generación e implementación de ideas.
 
     .bg-full-width.bg-fondo-4
       .p-4.p-md-5

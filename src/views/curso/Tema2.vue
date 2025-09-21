@@ -30,10 +30,13 @@
               p Orienta los esfuerzos hacia ideas relevantes.
 
             .div(titulo="Facilita la toma de decisiones")
-              p Proporciona información clave para decisiones 
+              p Proporciona información clave para decisiones estratégicas.
 
             .div(titulo="Mejora la comunicación")
               p Reduce malentendidos entre cliente y equipo creativo.
+
+            .div(titulo="Aumenta la eficiencia")
+              p Evita desperdicio de recursos en esfuerzos innecesarios.
 
 
       h2(data-aos="fade-up") Elementos claves de un #[span #[em briefing]]

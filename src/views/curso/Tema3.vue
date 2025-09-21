@@ -85,7 +85,7 @@
 
       .row.align-items-start.mb-5
         .col-lg-8
-          p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
+          //p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
 
           AcordionA(tipo="b")
             .div(titulo="Generación de ideas iniciales")
@@ -269,14 +269,14 @@
         .px-4.p-md-5
           .row.justify-content-center.align-items-center
             .col-lg-8
-              h2.mb-4(data-aos="flip-up") Casos prácticos de #[em briefing] eficaces
-              p.mb-4(data-aos="fade-right") En el documento se exponen casos prácticos de #[b #[em briefings] eficaces] que abarcan distintos escenarios, desde el lanzamiento de un producto tecnológico hasta campañas de concienciación. Se presentan ejemplos detallados que incluyen objetivos claros, públicos definidos, mensajes claves, tonos de voz adecuados, restricciones específicas, indicadores de rendimiento (KPI's) y visuales ejemplares.
+              h2.mb-4(data-aos="flip-up") Mapas mentales: visualizar las ideas
+              p.mb-4(data-aos="fade-right") En el documento se presentan los mapas mentales como herramientas esenciales para estructurar y visualizar ideas, destacando su capacidad para fomentar la creatividad, resolver problemas y mejorar la productividad. Se explica el proceso para crearlos, desde la elección de un tema central, hasta la adición de colores e imágenes, para mayor claridad.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p <strong>Anexo. </strong> Casos prácticos de briefing eficaces.
+                  p <strong>Anexo. </strong> Mapas mentales: visualizar las ideas
 
             .col-lg-4
               figure(data-aos="zoom-in")
@@ -406,7 +406,7 @@
                     h3.mb-1 Aplicaciones de SCAMPER
                     p En el documento, se destacan las aplicaciones del método SCAMPER como herramienta para fomentar la innovación y la creatividad en diferentes contextos empresariales.
                   .col-sm-auto
-                    a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-arrow-right
 
@@ -476,6 +476,8 @@
 
         .col-lg-8
 
+          p(data-aos="fade-left") Beneficios de combinar SCAMPER con IA:
+
           AcordionA(tipo="b")
             .div(titulo="Aumento de la creatividad")
               p La IA puede generar ideas que nunca habría considerado.
@@ -516,7 +518,7 @@
                     h3.mb-1 Otras técnicas para estimular la creatividad
                     p En el documento se detallan #[b técnicas innovadoras para estimular la creatividad], como el método 6-3-5, los seis sombreros para pensar, y el uso de analogías, integrándolas con herramientas como SCAMPER e inteligencia artificial. 
                   .col-sm-auto
-                    a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-arrow-right
 
